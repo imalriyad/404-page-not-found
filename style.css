@@ -62,7 +62,7 @@ button{
     
 }
 
-/* Responsive for mobile */
+/* Responsive for Small Screen */
 @media screen and (max-width:576px) {
     .main-container{
         display: flex;
@@ -106,4 +106,26 @@ button{
    margin-left: 30px;
 }
 
+}
+/* Responsive for Medium Screen */
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .img{
+        max-width: 100%;
+    }
+    .image-box{
+        width: 100%;
+        margin-right: 30px;
+    }
+    .text-box{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .text-tittle{
+        color: #333333;
+        font-size: 30px;
+        margin-bottom: 30px;
+        
+    }
+    
 }
